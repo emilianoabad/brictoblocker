@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "BrictoBlocker",
+  "version": "0.1",
+  "description": "Hide messages from a specific user in WhatsApp Web.",
+  "permissions": [
+    "activeTab",
+    "declarativeContent",
+    "storage"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://web.whatsapp.com/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "options_page": "options.html"
+}
