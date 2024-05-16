@@ -2,7 +2,7 @@
 
 Who doesn't have that one *extremely unpleasant* friend who turns every group chat into a nightmare? Introducing Bricto Blocker, the Chrome extension that saves your sanity by hiding messages from that one annoying user in WhatsApp Groups when using WhatsApp Web.
 
-![Brito Blocker Logo](./logo.png)
+![Bricto Blocker Logo](./logo.webp)
 
 ## Features
 
